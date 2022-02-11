@@ -1,8 +1,16 @@
 package org.launchcode.techjobs.oo;
 
-import java.util.Objects;
+//import java.util.Objects;
 
-public class Employer {
+public class Employer extends JobField {
+
+    public Employer(String value) {
+        super(value);
+    }
+
+}
+
+/* public class Employer {
 
     private int id;
     private static int nextId = 1;
@@ -52,4 +60,4 @@ public class Employer {
         this.value = value;
     }
 
-}
+} */

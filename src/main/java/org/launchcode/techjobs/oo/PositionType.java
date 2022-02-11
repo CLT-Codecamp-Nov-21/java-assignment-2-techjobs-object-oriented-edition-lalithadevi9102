@@ -1,6 +1,12 @@
 package org.launchcode.techjobs.oo;
 
-public class PositionType {
+public class PositionType extends JobField {
+
+    public PositionType(String value) {
+        super(value);
+    }
+}
+/*public class PositionType {
 
     private int id;
     private static int nextId = 1;
@@ -35,4 +41,4 @@ public class PositionType {
         this.value = value;
     }
 
-}
+}*/
